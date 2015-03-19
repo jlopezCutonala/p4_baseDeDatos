@@ -20,9 +20,8 @@ class Contacto
                 {
                      while($row = $result->fetch_assoc())
                      {
-                        var_dump($row);
                          $resultado[] = $row;
-                     }exit;
+                     }
                 }
             }
             $conexion->cerrar();
